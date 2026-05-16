@@ -8,3 +8,4 @@ venv/
 *.h5 
 .ipynb_checkpoints/ 
 data/Smart-Contract-Dataset/ 
+models/ 
