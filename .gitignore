@@ -1,0 +1,10 @@
+__pycache__/ 
+*.pyc 
+*.pyo 
+.env 
+venv/ 
+*.csv 
+*.pkl 
+*.h5 
+.ipynb_checkpoints/ 
+data/Smart-Contract-Dataset/ 
