@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the original research paper."
+
+# ── Cite the SOFTWARE (your library) ─────────────────────────────────────────
+title: "WIDENNET: Smart Contract Vulnerability Detection Pipeline"
+version: "1.0.0"
+date-released: "2026-05-01"
+authors:
+  - family-names: "P"
+    given-names: "Deepu"
+    email: pdeepuprakash@gmail.com
+    orcid: ""   # Add your ORCID if you have one: https://orcid.org
+url: "https://github.com/Deepu-p-123/widennet-pipeline"
+license: GPL-3.0
+repository-code: "https://github.com/Deepu-p-123/widennet-pipeline"
+keywords:
+  - smart contract
+  - vulnerability detection
+  - wide and deep neural network
+  - blockchain
+  - reentrancy
+  - timestamp dependence
+
+# ── Cite the ORIGINAL PAPER (required by GPL & academic integrity) ────────────
+references:
+  - type: article
+    title: "Smart contract vulnerability detection using wide and deep neural network"
+    authors:
+      - family-names: "Osei"
+        given-names: "Samuel Banning"
+      - family-names: "Ma"
+        given-names: "Zhongchen"
+      - family-names: "Huang"
+        given-names: "Rubing"
+    journal: "Science of Computer Programming"
+    volume: 238
+    year: 2024
+    doi: "10.1016/j.scico.2024.103172"
+    url: "https://doi.org/10.1016/j.scico.2024.103172"
+    notes: "This software implements the WIDENNET architecture described in this paper."
