@@ -1,0 +1,3 @@
+[console_scripts]
+widennet-api = widennet.api:main
+widennet-predict = widennet.predict:main

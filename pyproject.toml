@@ -1,10 +1,10 @@
 [build-system]
 requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "widennet"
-version = "1.0.0"
+version = "1.0.1"
 description = "Smart Contract Vulnerability Detection using Wide and Deep Neural Network"
 readme = "README.md"
 license = { text = "GPL-3.0-or-later" }
@@ -38,7 +38,7 @@ requires-python = ">=3.11"
 dependencies = [
     "tensorflow>=2.13",
     "gensim>=4.3",
-    "evmdasm>=0.1.14",
+    "evmdasm>=0.1.10",
     "py-solc-x>=1.1.1",
     "numpy>=1.24",
     "pandas>=2.0",
