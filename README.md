@@ -192,6 +192,21 @@ Place downloaded `.keras` files in the `models/` directory before running infere
 
 ---
 
+## Pre-trained Models
+
+Download via Hugging Face:
+
+```python
+from huggingface_hub import hf_hub_download
+
+model_path = hf_hub_download(repo_id="DeepuP2002/widennet",
+                              filename="widennet_final.keras")
+vocab_path = hf_hub_download(repo_id="DeepuP2002/widennet",
+                              filename="vocab_index.json")
+```
+
+Or view directly: https://huggingface.co/DeepuP2002/widennet
+
 ## Results
 
 | Metric | Reentrancy | Timestamp Dependence |
